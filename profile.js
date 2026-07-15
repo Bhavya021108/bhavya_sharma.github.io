@@ -11,7 +11,7 @@ If you do not have a link yet, leave that section as an empty list: []
 */
 
 const studentProfile = {
-  name: "Your Name",
+  name: "Bhavya Sharma",
 
   tagline: "DREAM-High Scholar | Computational Biology Portfolio",
 
@@ -43,7 +43,7 @@ const studentProfile = {
     },
     {
       title: "Finding Patterns with Heatmaps",
-      url: "https://rpubs.com/"
+      url: "https://rpubs.com/bhavya_sharma173/1447245"
     }
   ],
 
@@ -65,7 +65,7 @@ const studentProfile = {
   github: [
     {
       title: "My GitHub Profile",
-      url: "https://github.com/"
+      url: "https://github.com/Bhavya021108"
     }
   ]
 };
