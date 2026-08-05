@@ -54,7 +54,7 @@ const studentProfile = {
   */
   finalProject: {
     title: "My DREAM-High Final Project",
-    description: "Identifying genes overexpressed in a cancer type and investigating whether existing drugs target those genes 
+    description: "Identifying genes overexpressed in a cancer type and investigating whether existing drugs target those genes" 
 ",
     url: ""
   },
