@@ -39,7 +39,7 @@ const studentProfile = {
   rpubs: [
     {
       title: "Introduction to R",
-      url: "https://rpubs.com/"
+      url: "https://rpubs.com/bhavya_sharma173/1447245"
     },
     {
       title: "Finding Patterns with Heatmaps",
@@ -54,7 +54,8 @@ const studentProfile = {
   */
   finalProject: {
     title: "My DREAM-High Final Project",
-    description: "Write one or two sentences describing your final project.",
+    description: "Identifying genes overexpressed in a cancer type and investigating whether existing drugs target those genes 
+",
     url: ""
   },
 
