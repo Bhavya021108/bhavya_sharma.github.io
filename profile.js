@@ -73,7 +73,7 @@ const studentProfile = {
   */
   github: [
     {
-      title: "My GitHub Profile",
+      title: "My GitHub-Profile",
       url: "https://github.com/Bhavya021108"
     }
   ]
