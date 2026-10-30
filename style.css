@@ -1,93 +1,119 @@
 * { box-sizing: border-box; }
 
 :root {
-  --bg: #f4f7fb;
-  --surface: #ffffff;
-  --surface-soft: #eef4ff;
-  --primary: #123c69;
-  --primary-2: #2a6f97;
-  --accent: #5ec8c9;
-  --text: #1f2933;
-  --muted: #6b7280;
-  --shadow: rgba(17, 24, 39, 0.10);
+  --bg-1: #06182d;
+  --bg-2: #0d223d;
+  --bg-3: #112d4e;
+  --panel: rgba(13, 34, 61, 0.82);
+  --panel-strong: #102a46;
+  --card: rgba(17, 43, 72, 0.95);
+  --primary: #7ec8ff;
+  --primary-strong: #4ea0ff;
+  --accent: #9fe7ff;
+  --text: #edf7ff;
+  --muted: #aac5dd;
+  --heading: #dff4ff;
+  --line: rgba(158, 231, 255, 0.22);
+  --shadow: rgba(0, 0, 0, 0.28);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.6;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 1.7;
   color: var(--text);
-  background: var(--bg);
+  background:
+    radial-gradient(circle at top, rgba(78, 160, 255, 0.22), transparent 28%),
+    linear-gradient(180deg, var(--bg-1), var(--bg-2) 40%, var(--bg-3));
+  min-height: 100vh;
 }
 
 .hero {
-  background: linear-gradient(135deg, var(--primary), var(--primary-2));
+  background:
+    linear-gradient(135deg, rgba(18, 60, 105, 0.9), rgba(19, 83, 126, 0.8)),
+    radial-gradient(circle at top right, rgba(158, 231, 255, 0.25), transparent 30%);
   color: white;
-  padding: 60px 20px 80px;
+  padding: 70px 20px 90px;
+  border-bottom: 1px solid var(--line);
 }
 
 .hero-content {
-  max-width: 950px;
+  max-width: 980px;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: 30px;
 }
 
 .program-label {
-  margin: 0 0 8px 0;
+  margin: 0 0 10px;
   text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-size: 0.85rem;
-  opacity: 0.9;
+  letter-spacing: 0.14em;
+  font-size: 0.8rem;
+  color: var(--accent);
+  opacity: 0.95;
 }
 
 h1 {
   margin: 0;
-  font-size: 3rem;
-  line-height: 1.1;
-  color: white;
+  font-size: clamp(2.4rem, 4vw, 4rem);
+  line-height: 1.08;
+  color: var(--heading);
+  letter-spacing: -0.03em;
 }
 
 .tagline {
-  margin: 12px 0 0 0;
-  font-size: 1.25rem;
+  margin: 14px 0 0;
+  font-size: 1.2rem;
+  color: #dfefff;
   opacity: 0.95;
 }
 
 .profile-photo {
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   object-fit: cover;
-  border: 5px solid rgba(255,255,255,0.9);
-  background: white;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+  border: 4px solid rgba(158, 231, 255, 0.5);
+  background: #dfefff;
+  box-shadow: 0 18px 35px rgba(0,0,0,0.25);
 }
 
 .container {
-  max-width: 950px;
-  margin: -30px auto 40px auto;
+  max-width: 980px;
+  margin: -38px auto 40px;
   padding: 0 20px;
 }
 
 .card {
-  background: var(--surface);
-  border-radius: 16px;
-  padding: 28px;
-  margin-bottom: 22px;
-  box-shadow: 0 8px 24px var(--shadow);
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 28px 30px;
+  margin-bottom: 24px;
+  box-shadow: 0 15px 35px var(--shadow);
+  backdrop-filter: blur(4px);
 }
 
 h2 {
   margin-top: 0;
-  color: var(--primary);
-  border-bottom: 2px solid #e5edf5;
-  padding-bottom: 8px;
+  color: var(--heading);
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 10px;
+  font-size: 1.7rem;
 }
 
 h3 {
-  margin-bottom: 6px;
+  margin-bottom: 8px;
+  color: var(--text);
+  font-size: 1.1rem;
+}
+
+p, li {
   color: var(--text);
 }
 
@@ -107,22 +133,26 @@ h3 {
 }
 
 .link-list a:hover {
+  color: var(--accent);
   text-decoration: underline;
 }
 
 .button-link {
   display: inline-block;
-  background: var(--primary);
-  color: white;
-  padding: 10px 16px;
-  border-radius: 8px;
+  margin-top: 8px;
+  background: linear-gradient(135deg, var(--primary), var(--primary-strong));
+  color: #021522;
+  padding: 12px 18px;
+  border-radius: 10px;
   text-decoration: none;
-  font-weight: 600;
-  transition: background 0.2s ease;
+  font-weight: 700;
+  box-shadow: 0 12px 28px rgba(78, 160, 255, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .button-link:hover {
-  background: var(--primary-2);
+  transform: translateY(-1px);
+  box-shadow: 0 16px 30px rgba(78, 160, 255, 0.45);
 }
 
 .empty {
@@ -132,7 +162,7 @@ h3 {
 
 footer {
   text-align: center;
-  padding: 25px;
+  padding: 28px 20px 40px;
   color: var(--muted);
   font-size: 0.95rem;
 }
@@ -143,7 +173,16 @@ footer {
     text-align: center;
   }
 
+  .hero {
+    padding-top: 60px;
+    padding-bottom: 76px;
+  }
+
+  .card {
+    padding: 22px 20px;
+  }
+
   h1 {
-    font-size: 2.25rem;
+    font-size: 2.4rem;
   }
 }
