@@ -27,7 +27,7 @@ const studentProfile = {
   */
   photo: "",
 
-  contact: "Contact information available upon request.",
+  contact: "sharma.bhavya173@gmail.com"
 
   /*
   RPubs activities:
@@ -45,6 +45,15 @@ const studentProfile = {
       title: "Finding Patterns with Heatmaps",
       url: "https://rpubs.com/bhavya_sharma173/1447245"
     }
+     {
+      title: "Heatmaps with TCGA Breast Cancer Gene Expression Data",
+      url: "https://rpubs.com/bhavya_sharma173/1449966"
+    },
+   {
+      title: "Breast Cancer Cell Lines, Cell Motility, and Gene Expression",
+      url: "https://rpubs.com/bhavya_sharma173/1451251"
+    },
+    
   ],
 
   /*
