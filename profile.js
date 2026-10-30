@@ -15,7 +15,7 @@ const studentProfile = {
 
   tagline: "DREAM-High Scholar | Computational Biology Portfolio",
 
-  bio: "Write a short paragraph about yourself here. You might include your scientific interests, what you hope to learn in DREAM-High, and something you are excited to explore in computational biology.",
+  bio: "I'm a senior in high school who is part of the 2026 Dream HIGH Cohort at Columbia University. I'm passionate about bioligy and medicine, and the intersection of computaional bioligy. My career goals are to beocme an EMS Physcian and conduct research in the field. Some of my hobbies include watching basketball and travelling.",
 
   /*
   Optional photo:
@@ -61,9 +61,10 @@ const studentProfile = {
   RPubs page, GitHub repository, PDF, or other final project page.
   */
   finalProject: {
-    title: "My DREAM-High Final Project",
-    description: "Identifying genes overexpressed in a cancer type and investigating whether existing drugs target those genes",
-    url: ""
+    title: "Overview of My DREAM-High Final Project",
+    description: "Identifying Overexpressed Genes and Existing Drug Targets in Breast Cancer
+",
+    url: "https://docs.google.com/presentation/d/1j0IhnqrCdmJaVk9bBychvJB-DGPWmUmJ/edit?slide=id.p1#slide=id.p1"
   },
 
   /*
@@ -72,7 +73,7 @@ const studentProfile = {
   */
   github: [
     {
-      title: "My GitHub Profile",
+      title: "My GitHub-Profile",
       url: "https://github.com/Bhavya021108"
     }
   ]
