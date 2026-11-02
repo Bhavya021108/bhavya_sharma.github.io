@@ -64,7 +64,7 @@ const studentProfile = {
     title: "Overview of My DREAM-High Final Project",
     description: "Identifying Overexpressed Genes and Existing Drug Targets in Breast Cancer
 ",
-    url: ""
+    url: "https://docs.google.com/presentation/d/1j0IhnqrCdmJaVk9bBychvJB-DGPWmUmJ/edit?rtpof=true"
   },
 
   /*
