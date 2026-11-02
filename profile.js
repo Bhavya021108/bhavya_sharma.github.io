@@ -15,7 +15,7 @@ const studentProfile = {
 
   tagline: "DREAM-High Scholar | Computational Biology Portfolio",
 
-  bio: "I am a senior in high school who is part of the 2026 Dream HIGH Cohort at Columbia University. I am passionate about bioligy and medicine, and the intersection of computaional bioligy. My career goals are to beocme an EMS Physcian and conduct research in the field. Some of my hobbies include watching basketball and travelling.",
+  bio: "I'm a senior in high school who is part of the 2026 Dream HIGH Cohort at Columbia University. I'm passionate about bioligy and medicine, and the intersection of computaional bioligy. My career goals are to beocme an EMS Physcian and conduct research in the field. Some of my hobbies include watching basketball and travelling.",
 
   /*
   Optional photo:
@@ -62,8 +62,9 @@ const studentProfile = {
   */
   finalProject: {
     title: "Overview of My DREAM-High Final Project",
-    description: "Identifying Overexpressed Genes and Existing Drug Targets in Breast Cancer",
-    url: "https://docs.google.com/presentation/d/1j0IhnqrCdmJaVk9bBychvJB-DGPWmUmJ/edit?rtpof=true"
+    description: "Identifying Overexpressed Genes and Existing Drug Targets in Breast Cancer
+",
+    url: "https://docs.google.com/presentation/d/1j0IhnqrCdmJaVk9bBychvJB-DGPWmUmJ/edit?slide=id.p1#slide=id.p1"
   },
 
   /*
