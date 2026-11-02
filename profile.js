@@ -15,7 +15,7 @@ const studentProfile = {
 
   tagline: "DREAM-High Scholar | Computational Biology Portfolio",
 
-  bio: "I'm a senior in high school who is part of the 2026 Dream HIGH Cohort at Columbia University. I'm passionate about bioligy and medicine, and the intersection of computaional bioligy. My career goals are to beocme an EMS Physcian and conduct research in the field. Some of my hobbies include watching basketball and travelling.",
+  bio: "I am a senior in high school who is part of the 2026 Dream HIGH Cohort at Columbia University. I am passionate about bioligy and medicine, and the intersection of computaional bioligy. My career goals are to beocme an EMS Physcian and conduct research in the field. Some of my hobbies include watching basketball and travelling.",
 
   /*
   Optional photo:
